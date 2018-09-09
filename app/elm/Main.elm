@@ -33,11 +33,11 @@ type alias Model =
 
 initialModel : Model
 initialModel =
-    { xdown = 0
-    , ydown = 0
-    , xup = 0
-    , yup = 0
-    , iterations = 0
+    { xdown = 100
+    , ydown = 100
+    , xup = 200
+    , yup = 200
+    , iterations = 3
     }
 
 
